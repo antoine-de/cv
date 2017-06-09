@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Antoine} % Your first name
+\familyname{Desbordes} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Optimization engineer}
+\email{antoine.desbordes@gmail.com}
+\homepage{https://github.com/antoine-de} {https://github.com/antoine-de} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{https://www.linkedin.com/in/antoine-desbordes-59142310/}
+\extrainfo{May 31 1985}
+\photo[70pt][0.4pt]{pictures/photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills \& Abilities}
+
+\cvitem{Programming Languages}{\textsc{Advanced C++, Rust, Python}}
+\cvitem{Optimization}{\textsc{Graph theory (mostly shortest path), mathematical programming, constraint programming, local search, decision tree}}
+\cvitem{Tools}{\textsc{Linux, Docker, GIS, Boost, Solvers (Cplex, Choco)}}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\cventry{Nov 2013 -- Present}{Software Engineer}{\textsc{Kisio Digital}}{Paris}{}{
+    \newline{}blabla on canaltp 
+    \newline{}blabla on canaltp 
+    \newline{}blabla on canaltp 
+    \newline{}blabla on canaltp 
+    \newline{}blabla on canaltp 
+    \newline{}blabla on canaltp
+}
+
+\cventry{Oct 2007 -- Nov 2013}{Optimization Engineer}{\textsc{Eurodecision}}{Paris}{}{
+    \textsc{Eurodecision} is a consulting firm specialized in Optimization.\newline{}
+    Example of missions carried:
+    \newline{}
+    \begin{itemize}
+    \item \textbf{Air France} Long term mission for:
+        \begin{itemize}
+            \item Crew scheduling
+            \item Architecture of the new yield management system and development of the cancellation forecasting module
+            \item Model of the impacts of a flight program change on the income and optimization of the flight program
+        \end{itemize}
+    \item \textbf{CSDL} (European research project) - Stochastic optimization for uncertainty handling in product design (applied to car weight reduction process)
+    \item \textbf{ERDF} - Shortest path and vehicle routing implementation for the deployment of the Linky electric meter
+    \item \textbf{Tegaz} - Leading the development of an optimization engine to balance a gas network
+    \item \textbf{AAA Data} - Rule based engine to aggregate heterogeneous sources.
+    \end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{French}{Native Speaker}{}
+\cvitemwithcomment{English}{Fluent}{Daily use at work. 7.5/9 « good user » at the IELTS exam.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2003- 2007}{École des Mines de Nantes}{}{}{\textit{Computing science and operations research}}{}
+
+\cventry{2002--2003}{Classe Préparatoire aux Grandes Ecoles}{Lycée Claude Bernard, Paris}{}{\textit{Graduated from High School (in Maths and Physics)}}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+\end{document}
+
+
+
+
