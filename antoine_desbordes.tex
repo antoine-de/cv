@@ -22,7 +22,7 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -31,6 +31,7 @@
 \moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{hyperref}
 
 \usepackage[scale=.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
@@ -63,7 +64,7 @@
 \section{Skills \& Abilities}
 
 \cvitem{Programming Languages}{\textsc{Advanced C++, Rust, Python}}
-\cvitem{Optimization}{\textsc{Graph theory (mostly shortest path), mathematical programming, constraint programming, local search, decision tree}}
+\cvitem{Optimization}{\textsc{Graph theory (mostly shortest path), mathematical programming, constraint programming, local search, decision tree, rules engine}}
 \cvitem{Tools}{\textsc{Linux, Docker, GIS, Boost, Solvers (Cplex, Choco)}}
 
 
@@ -74,12 +75,11 @@
 \section{Work Experience}
 
 \cventry{Nov 2013 -- Present}{Software Engineer}{\textsc{Kisio Digital}}{Paris}{}{
-    \newline{}blabla on canaltp 
-    \newline{}blabla on canaltp 
-    \newline{}blabla on canaltp 
-    \newline{}blabla on canaltp 
-    \newline{}blabla on canaltp 
-    \newline{}blabla on canaltp
+    Software engineer in the Operation Research team in charge of \href[Navitia]{http://navitia.io}
+    \newline{}
+    Navitia is an \href[opensource]{https://github.com/CanalTP/navitia} traveler information software providing multi-modal journeys computation, timetables, isochrones, ...
+    \newline{}
+    It is build a micro-service API with components written in C++, python and rust and can handle real-time data.
 }
 
 \cventry{Oct 2007 -- Nov 2013}{Optimization Engineer}{\textsc{Eurodecision}}{Paris}{}{
@@ -87,16 +87,16 @@
     Example of missions carried:
     \newline{}
     \begin{itemize}
-    \item \textbf{Air France} Long term mission for:
+    \item \textbf{Air France} Long term mission on:
         \begin{itemize}
-            \item Crew scheduling
-            \item Architecture of the new yield management system and development of the cancellation forecasting module
-            \item Model of the impacts of a flight program change on the income and optimization of the flight program
+            \item crew scheduling
+            \item architecture of the new yield management system and development of the cancellation forecasting module
+            \item model of the impacts of a flight program change on the income and optimization of the flight program
         \end{itemize}
     \item \textbf{CSDL} (European research project) - Stochastic optimization for uncertainty handling in product design (applied to car weight reduction process)
     \item \textbf{ERDF} - Shortest path and vehicle routing implementation for the deployment of the Linky electric meter
     \item \textbf{Tegaz} - Leading the development of an optimization engine to balance a gas network
-    \item \textbf{AAA Data} - Rule based engine to aggregate heterogeneous sources.
+    \item \textbf{AAA Data} - Rule based engine to aggregate heterogeneous data sources.
     \end{itemize}
 }
 
