@@ -1,2 +1,3 @@
 # CV
-personal resume
+
+[personal resume](antoine_desbordes.pdf)
