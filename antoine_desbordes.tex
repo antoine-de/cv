@@ -1,9 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.11 (19/6/14)
-%
-% This template has been downloaded from:
+
 % http://www.LaTeXTemplates.com
 %
 % Original author:
@@ -51,7 +46,7 @@
 \social[linkedin]{antoine-desbordes-59142310/}
 \social[github]{antoine-de} 
 
-\extrainfo{May 31 1985}
+\extrainfo{May 31\textsuperscript{st} 1985}
 % \photo[70pt][0.4pt]{pictures/photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith}
 %----------------------------------------------------------------------------------------
@@ -65,10 +60,9 @@
 
 \section{Skills \& Abilities}
 
-\cvitem{Programming Languages}{Advanced C++, Rust, Python}
+\cvitem{Programming Languages}{Rust, Advanced C++, Python}
 \cvitem{Optimization}{Graph theory (mostly shortest path), mathematical programming, constraint programming, local search, decision tree, rules engine}
-\cvitem{Tools}{Linux, Docker, GIS, Boost, Solvers (Cplex, Choco)}
-
+\cvitem{Tools}{Linux, Docker, ElasticSearch, Postgres, GIS, Boost}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -77,7 +71,15 @@
 \section{Work Experience}
 
 \cventry{Oct 2017 -- Present}{Software Engineer}{\textsc{Qwant Research}}{Paris}{}{
-    Software engineer in the team in charge of Qwant Maps.
+  Creation of Qwant Maps, an \Colorhref{https://github.com/QwantResearch/qwantmaps}{open source} map service for \Colorhref{https://qwant.fr}{Qwant}, a French search engine focused on respecting privacy.
+    \newline{}
+    Design of a scalable vector tile architecture and development of a worldwide geographic search engine.
+    \newline{}
+    Core developer on:
+    \begin{itemize}
+      \item \Colorhref{https://github.com/CanalTP/mimirsbrunn/}{mimirsbrunn}: worldwide geographic search engine (geocoder)
+      \item \Colorhref{https://github.com/osm-without-borders/cosmogony/}{cosmogony}: tool to process geographic regions 
+    \end{itemize}
 }
 
 \cventry{Nov 2013 -- Sep 2017}{Software Engineer}{\textsc{Kisio Digital}}{Paris}{}{
@@ -102,7 +104,7 @@
             \item architecture of the new yield management system and development of the cancellation forecasting module;
             \item model of the impacts of a flight program change on the income and optimization of the flight program.
         \end{itemize}
-    \item \textbf{CSDL} (European research project): Stochastic optimization for uncertainty handling in product design (applied to car weight reduction process);
+    \item \textbf{CSDL} (European research project): Stochastic optimization for uncertainty handling in product design;
     \item \textbf{ERDF}: Shortest path and vehicle routing implementation for the deployment of the Linky electric meter;
     \item \textbf{Tegaz}: Leading the development of an optimization engine to balance a gas network;
     \item \textbf{AAA Data}: Rule based engine to aggregate heterogeneous data sources.
